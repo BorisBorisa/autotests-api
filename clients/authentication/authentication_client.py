@@ -17,7 +17,7 @@ class RefreshRequestDict(TypedDict):
     """
     Описание структуры запроса для обновления токена.
     """
-    refreshToken: str  # Название ключа совпадает с API
+    refreshToken: str
 
 
 class AuthenticationClient(APIClient):
