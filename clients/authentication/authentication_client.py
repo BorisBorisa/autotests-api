@@ -25,7 +25,7 @@ class AuthenticationClient(APIClient):
     Клиент для работы с /api/v1/authentication
     """
 
-    def login_api(self, request: dict) -> Response:
+    def login_api(self, request: LoginRequestDict) -> Response:
         """
         Метод выполняет аутентификацию пользователя.
 
