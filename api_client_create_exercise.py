@@ -1,5 +1,8 @@
-from clients.courses.courses_client import CreateCourseRequestDict, get_courses_client
-from clients.exercises.exercises_client import get_exercises_client, CreateExerciseRequestDict
+from clients.courses.courses_client import get_courses_client
+from clients.courses.courses_schema import CreateCourseRequestSchema
+from clients.exercises.exercises_client import get_exercises_client
+from clients.exercises.exercises_schema import CreateExerciseRequestSchema
+
 from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
@@ -34,29 +37,28 @@ create_file_request = CreateFileRequestSchema(
 )
 create_file_response = files_client.create_file(create_file_request)
 
-create_course_request = CreateCourseRequestDict(
+create_course_request = CreateCourseRequestSchema(
     title="Python",
-    maxScore=100,
-    minScore=10,
+    max_score=100,
+    min_score=10,
     description="Python API course",
-    estimatedTime="2 weeks",
-    previewFileId=create_file_response.file.id,
-    createdByUserId=create_user_response.user.id
+    estimated_time="2 weeks",
+    preview_file_id=create_file_response.file.id,
+    created_by_user_id=create_user_response.user.id
 )
 create_course_response = courses_client.create_course(create_course_request)
 
-create_exercises_request = CreateExerciseRequestDict(
+create_exercises_request = CreateExerciseRequestSchema(
     title="lesson 1",
-    courseId=create_course_response['course']['id'],
-    maxScore=50,
-    minScore=0,
-    orderIndex=1,
+    course_id=create_course_response.course.id,
+    max_score=50,
+    min_score=0,
+    order_index=1,
     description="learning HTTPX",
-    estimatedTime="16 hours"
+    estimated_time="16 hours"
 )
 exercises_client_response = exercises_client.create_exercise(create_exercises_request)
 
 print('Create file data:', create_file_response)
 print('Create course data:', create_course_response)
 print('Create exercise data:', exercises_client_response)
-
