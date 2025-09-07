@@ -1,7 +1,7 @@
 import httpx
 
 login_payload = {
-    "email": "user@example.com",
+    "email": "users@example.com",
     "password": "string"
 }
 

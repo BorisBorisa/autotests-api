@@ -33,7 +33,7 @@ user_headers = {
     "Authorization": f"Bearer {login_response_data['token']['accessToken']}"
 }
 update_response = httpx.patch(
-    f"http://localhost:8000/api/v1/users/{create_user_response_data["user"]["id"]}",
+    f"http://localhost:8000/api/v1/users/{create_user_response_data["users"]["id"]}",
     headers=user_headers,
     json=update_user_payload
 )
