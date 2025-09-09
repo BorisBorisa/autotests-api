@@ -1,4 +1,5 @@
 import pytest
+import allure
 
 from http import HTTPStatus
 
@@ -12,12 +13,16 @@ from tools.assertions.users import assert_create_user_response, assert_get_user_
 
 from fixtures.users import UserFixture
 from tools.fakers import fake
+from tools.allure.tags import AllureTag
 
 
 @pytest.mark.users
 @pytest.mark.regression
+@allure.tag(AllureTag.USERS, AllureTag.REGRESSION)
 class TestUsers:
     @pytest.mark.parametrize("domain", ("mail.ru", "gmail.com", "example.com"))
+    @allure.title("Create user")
+    @allure.tag(AllureTag.CREATE_ENTITY)
     def test_create_user(self, domain: str, public_users_client: PublicUsersClient):
         email = fake.email(domain=domain)
 
@@ -29,6 +34,8 @@ class TestUsers:
         assert_create_user_response(request, response_data)
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.title("Get user")
+    @allure.tag(AllureTag.GET_ENTITY)
     def test_get_user_me(self, private_users_client: PrivateUsersClient, function_user: UserFixture):
         response = private_users_client.get_user_me_api()
         response_data = GetUserResponseSchema.model_validate_json(response.text)
