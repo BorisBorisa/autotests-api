@@ -2,6 +2,7 @@ from http import HTTPStatus
 
 import pytest
 import allure
+from allure_commons.types import Severity
 
 from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_client import ExercisesClient
@@ -42,6 +43,7 @@ class TestExercises:
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.title("Create exercise")
     @allure.tag(AllureTag.CREATE_ENTITY)
+    @allure.severity(Severity.BLOCKER)
     def test_create_exercise(
             self,
             exercises_client: ExercisesClient,
@@ -59,6 +61,7 @@ class TestExercises:
     @allure.story(AllureStory.GET_ENTITY)
     @allure.title("Get exercise")
     @allure.tag(AllureTag.GET_ENTITY)
+    @allure.severity(Severity.BLOCKER)
     def test_get_exercise(
             self,
             exercises_client: ExercisesClient,
@@ -75,6 +78,7 @@ class TestExercises:
     @allure.story(AllureStory.UPDATE_ENTITY)
     @allure.title("Update exercise")
     @allure.tag(AllureTag.UPDATE_ENTITY)
+    @allure.severity(Severity.CRITICAL)
     def test_update_exercise(
             self,
             exercises_client: ExercisesClient,
@@ -95,6 +99,7 @@ class TestExercises:
     @allure.story(AllureStory.DELETE_ENTITY)
     @allure.title("Delete exercise")
     @allure.tag(AllureTag.DELETE_ENTITY)
+    @allure.severity(Severity.CRITICAL)
     def test_delete_exercise(
             self,
             exercises_client: ExercisesClient,
@@ -117,6 +122,7 @@ class TestExercises:
     @allure.story(AllureStory.GET_ENTITIES)
     @allure.title("Create exercise")
     @allure.tag(AllureTag.GET_ENTITIES)
+    @allure.severity(Severity.BLOCKER)
     def test_get_exercises(
             self,
             exercises_client: ExercisesClient,

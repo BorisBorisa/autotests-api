@@ -1,5 +1,6 @@
 import pytest
 import allure
+from allure_commons.types import Severity
 
 from http import HTTPStatus
 
@@ -29,6 +30,7 @@ class TestUsers:
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.title("Create user")
     @allure.tag(AllureTag.CREATE_ENTITY)
+    @allure.severity(Severity.BLOCKER)
     def test_create_user(self, domain: str, public_users_client: PublicUsersClient):
         email = fake.email(domain=domain)
 
@@ -43,6 +45,7 @@ class TestUsers:
     @allure.story(AllureStory.GET_ENTITY)
     @allure.title("Get user")
     @allure.tag(AllureTag.GET_ENTITY)
+    @allure.severity(Severity.CRITICAL)
     def test_get_user_me(self, private_users_client: PrivateUsersClient, function_user: UserFixture):
         response = private_users_client.get_user_me_api()
         response_data = GetUserResponseSchema.model_validate_json(response.text)

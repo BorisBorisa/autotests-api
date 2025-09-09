@@ -2,6 +2,7 @@ from http import HTTPStatus
 
 import pytest
 import allure
+from allure_commons.types import Severity
 
 from clients.courses.courses_client import CoursesClient
 from clients.courses.courses_schema import (
@@ -37,6 +38,7 @@ class TestCourses:
     @allure.tag(AllureTag.UPDATE_ENTITY)
     @allure.title("Update course")
     @allure.tag(AllureTag.UPDATE_ENTITY)
+    @allure.severity(Severity.CRITICAL)
     def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
         request = UpdateCourseRequestSchema()
         response = courses_client.update_course_api(function_course.response.course.id, request)
@@ -50,6 +52,7 @@ class TestCourses:
     @allure.story(AllureStory.GET_ENTITIES)
     @allure.title("Get course")
     @allure.tag(AllureTag.GET_ENTITIES)
+    @allure.severity(Severity.BLOCKER)
     def test_get_courses(
             self,
             courses_client: CoursesClient,
@@ -68,6 +71,7 @@ class TestCourses:
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.title("Create course")
     @allure.tag(AllureTag.CREATE_ENTITY)
+    @allure.severity(Severity.BLOCKER)
     def test_create_course(
             self,
             courses_client: CoursesClient,
