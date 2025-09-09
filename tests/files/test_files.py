@@ -10,13 +10,12 @@ from clients.files.files_schema import CreateFileRequestSchema, CreateFileRespon
 from fixtures.files import FileFixture
 
 from tools.assertions.base import assert_status_code
-from tools.assertions.errors import assert_file_not_found_response
 from tools.assertions.files import (
     assert_create_file_response,
     assert_get_file_response,
     assert_create_file_with_empty_directory_response,
     assert_create_file_with_empty_filename_response,
-    assert_get_file_with_incorrect_file_id_response
+    assert_get_file_with_incorrect_file_id_response, assert_file_not_found_response
 )
 from tools.assertions.schema import validate_json_schema
 from tools.allure.tags import AllureTag
