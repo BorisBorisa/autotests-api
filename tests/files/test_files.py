@@ -19,12 +19,18 @@ from tools.assertions.files import (
 )
 from tools.assertions.schema import validate_json_schema
 from tools.allure.tags import AllureTag
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
 
 
 @pytest.mark.files
 @pytest.mark.regression
 @allure.tag(AllureTag.FILES, AllureTag.REGRESSION)
+@allure.epic(AllureEpic.LMS)
+@allure.feature(AllureFeature.FILES)
 class TestFiles:
+    @allure.story(AllureStory.CREATE_ENTITY)
     @allure.title("Create file")
     @allure.tag(AllureTag.CREATE_ENTITY)
     def test_create_file(self, files_client: FilesClient):
@@ -36,6 +42,7 @@ class TestFiles:
         assert_create_file_response(request, response_data)
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.story(AllureStory.GET_ENTITY)
     @allure.title("Get file")
     @allure.tag(AllureTag.GET_ENTITY)
     def test_get_file(self, files_client: FilesClient, function_file: FileFixture):
@@ -47,6 +54,7 @@ class TestFiles:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.title("Create file with empty filename")
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     def test_create_file_with_empty_filename(self, files_client: FilesClient):
@@ -62,6 +70,7 @@ class TestFiles:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.title("Create file with empty directory")
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     def test_create_file_with_empty_directory(self, files_client: FilesClient):
@@ -77,6 +86,7 @@ class TestFiles:
 
         validate_json_schema(response.json(), response_data.model_json_schema())
 
+    @allure.story(AllureStory.DELETE_ENTITY)
     @allure.title("Delete file")
     @allure.tag(AllureTag.DELETE_ENTITY)
     def test_delete_file(self, files_client: FilesClient, function_file: FileFixture):
@@ -91,6 +101,7 @@ class TestFiles:
 
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
 
+    @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.title("Get file with incorrect file id")
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     def test_get_file_with_incorrect_file_id(self, files_client: FilesClient):
