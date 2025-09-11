@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA2OjQwLjUzMjc2MyIsInVzZXJfaWQiOiI4M2YxYjBmOS1kZTdjLTRiNWUtOTRhMi01ZjhjZDk5NjQ5Y2EifQ.v9tvH-O9vGxY_oz0U5h_jyfrVM4wUA5J7U94HOnMDY0' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rest measure once military.","courseId":"e9cc0ef1-4791-4d96-8fee-ec80f9156512","maxScore":64,"minScore":2,"orderIndex":7,"description":"New TV near but view successful room must.\nCell with physical now rest bit owner. Board very wonder later improve nice again. Trial per different on more.","estimatedTime":"5 weeks"}'

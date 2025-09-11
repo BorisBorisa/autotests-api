@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA2OjM5Ljk1MDA0NiIsInVzZXJfaWQiOiI2ODVhODE1OC00ZjU4LTQ0NjAtYjUzYi02NzAxZmE4MWJjNjEifQ.Mo1WQRViNeZDHkjmUfh2kW1ZKUL3CA1MkTeahU46eyE' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Use condition picture character.","maxScore":90,"minScore":25,"description":"Together fact billion relate. Technology create reveal relate way American.\nArrive reason road class project occur two. Cause city discuss talk.","estimatedTime":"2 weeks","previewFileId":"ebad30c0-1c69-458f-ab16-6fb8172eecf3","createdByUserId":"685a8158-4f58-4460-b53b-6701fa81bc61"}'

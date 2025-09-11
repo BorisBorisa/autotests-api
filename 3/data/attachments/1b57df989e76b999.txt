@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA2OjQyLjkzOTUyMiIsInVzZXJfaWQiOiI5MGQ0OTA1Zi0zN2ZkLTQ0MTUtYjYxYi01MTI0YzlhYjhlOTAifQ.-8kCauaLQMI3s8GfPu7dYW-ro28H09-y9EBcPhKfE8E' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality lose stock travel process story.","maxScore":75,"minScore":3,"description":"Although single along reveal ability rather. Standard huge grow threat again several.\nQuite dinner those short animal. Piece operation laugh water bring.","estimatedTime":"10 weeks","previewFileId":"3d807c35-169c-4b4e-bbe5-43f1d3df9f39","createdByUserId":"90d4905f-37fd-4415-b61b-5124c9ab8e90"}'

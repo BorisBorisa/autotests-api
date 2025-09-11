@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA2OjQwLjUzMjc2MyIsInVzZXJfaWQiOiI4M2YxYjBmOS1kZTdjLTRiNWUtOTRhMi01ZjhjZDk5NjQ5Y2EifQ.v9tvH-O9vGxY_oz0U5h_jyfrVM4wUA5J7U94HOnMDY0' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Size current drug everyone move speech.","maxScore":71,"minScore":14,"description":"Win east young area. The institution election cup respond tree admit.\nImagine carry piece foreign phone plant goal. Before either woman change nor happy popular. Wrong trouble TV call white parent.","estimatedTime":"8 weeks","previewFileId":"33ee1124-b1ab-46e8-8cd3-bcac7acd6f5b","createdByUserId":"83f1b0f9-de7c-4b5e-94a2-5f8cd99649ca"}'

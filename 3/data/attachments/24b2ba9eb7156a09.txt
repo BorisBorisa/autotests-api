@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/45f49834-219b-4287-b94f-63d979bf1ae8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA2OjM5LjM2MDAwMSIsInVzZXJfaWQiOiJmNDhmZDEyYS0wMzFmLTQxZDYtYTcwMi05ZmRmYTQwNmQ0ODkifQ.RjLzPTpjyLF-wJpeutYHJeIppLW1V6YinAC18qK_x3E' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Writer sell feeling use rest meeting important movie.","maxScore":57,"minScore":17,"description":"Claim direction statement today several mention although size.\nHowever with beautiful thing apply try claim. Positive fish ok of nation. Each again go.","estimatedTime":"3 weeks"}'

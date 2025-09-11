@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA2OjQxLjExOTA0NiIsInVzZXJfaWQiOiJmMWQyN2VkMi0zYzJmLTQ4ZmUtODBkYS01YWU5MDM0NjQxNWEifQ.rRmzVYBG67oz5bL0Rp7MKZdMqWpNDyi_lJpZcsQ35Hg' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maybe sense camera Republican rule common care.","courseId":"ee729ad2-7774-4c70-a949-38f421f02001","maxScore":73,"minScore":19,"orderIndex":67,"description":"Federal consumer strategy fire question check. Congress where truth foot. Cultural design ground security well lay several war. Man least compare machine.","estimatedTime":"10 weeks"}'

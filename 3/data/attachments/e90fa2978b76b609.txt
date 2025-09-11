@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA2OjQxLjcwMzA0MyIsInVzZXJfaWQiOiI4MzBiNWRiYS01MjM0LTQyNTctYWFlNi1lY2UwMWNhMzY0NzEifQ.XLVTmG2OCA5whP770qjsSFTz6NIy8StLE1B8psUV_O0' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Least memory cold responsibility he.","maxScore":87,"minScore":30,"description":"Actually back run develop crime still. Pull yard life approach hope responsibility. Pressure whose security view. Call crime teach rise state computer.\nEveryone situation put.","estimatedTime":"5 weeks","previewFileId":"7bb8c319-12ca-47ae-9a3f-75dcd3cf727b","createdByUserId":"830b5dba-5234-4257-aae6-ece01ca36471"}'

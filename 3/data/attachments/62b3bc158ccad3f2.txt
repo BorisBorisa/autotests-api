@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA2OjM4Ljc2NjUzNSIsInVzZXJfaWQiOiI3ZTY0NWM1YS1hNzZiLTQ1ODctODRkMC0xZGI4ZWQ5NDRlNjYifQ.u5hP9WHpA78G8XQxstD6zoFp1mUVDVnGV6u_99vDPEI' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interesting dark produce season smile green society.","maxScore":85,"minScore":10,"description":"Under local official growth other while. Also design structure boy manager run turn.\nPerformance memory teach star determine really. Exist material piece campaign.","estimatedTime":"8 weeks","previewFileId":"60c93df0-2b96-4fdc-a436-765b4ab1157a","createdByUserId":"7e645c5a-a76b-4587-84d0-1db8ed944e66"}'

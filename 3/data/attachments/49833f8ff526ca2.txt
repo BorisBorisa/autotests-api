@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA2OjQxLjExOTA0NiIsInVzZXJfaWQiOiJmMWQyN2VkMi0zYzJmLTQ4ZmUtODBkYS01YWU5MDM0NjQxNWEifQ.rRmzVYBG67oz5bL0Rp7MKZdMqWpNDyi_lJpZcsQ35Hg' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Production stuff hand degree before.","maxScore":77,"minScore":2,"description":"Explain develop author skin conference. Either strong official page. However million young always.\nStore data agreement environment gas. Human soon trip lay want.","estimatedTime":"6 weeks","previewFileId":"1912c625-bbea-4bd0-8ae4-101d960bb739","createdByUserId":"f1d27ed2-3c2f-48fe-80da-5ae90346415a"}'

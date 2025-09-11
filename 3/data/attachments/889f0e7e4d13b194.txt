@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA2OjM5LjM2MDAwMSIsInVzZXJfaWQiOiJmNDhmZDEyYS0wMzFmLTQxZDYtYTcwMi05ZmRmYTQwNmQ0ODkifQ.RjLzPTpjyLF-wJpeutYHJeIppLW1V6YinAC18qK_x3E' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Again later experience north middle remember.","maxScore":78,"minScore":24,"description":"Somebody cell push left poor. Wall summer line former between let moment. Responsibility lose focus capital close course song.\nProcess poor glass blood first concern. Born quickly whatever around.","estimatedTime":"8 weeks","previewFileId":"24dc8636-7be6-4a7a-b507-bb5eb7a1daaa","createdByUserId":"f48fd12a-031f-41d6-a702-9fdfa406d489"}'
