@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE1OjUxOjU5LjA0ODY0NCIsInVzZXJfaWQiOiJmZWVhMWE0OC0yMDk0LTRhMTQtYmZmNC1lODA4ZmYyYjAwMzEifQ.-9kbDdJIV1_x4DZl7J9xDc0rk7-9MYZ9-hFdQsO_3MQ' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interesting popular wrong concern.","courseId":"973eb71d-91f8-48fc-82ca-5f429572ccb3","maxScore":95,"minScore":27,"orderIndex":41,"description":"Former source different cause.\nPart fly partner well analysis relate student. Important forget general page enter theory. Woman win tree why while remain political.","estimatedTime":"9 weeks"}'

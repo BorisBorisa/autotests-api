@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE1OjUxOjU3LjU4NTg5MCIsInVzZXJfaWQiOiIyZGM2Yzk2OS0xZjE5LTQxNzUtYmRiYy01YTgxNDFlMzBhNjUifQ.3DmPL6UlhIIO7vbGcLvO2fppuVcoWehMM5ToPy6MD_M' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Head they decide education notice military.","maxScore":64,"minScore":19,"description":"Another deep off single against. Cost business where particularly goal professional.\nValue summer far evidence across growth meet.","estimatedTime":"10 weeks","previewFileId":"af84084c-6ee7-472c-8166-0b7bb4bcff9f","createdByUserId":"2dc6c969-1f19-4175-bdbc-5a8141e30a65"}'

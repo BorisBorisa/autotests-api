@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE1OjUxOjU5LjMyMjU3OSIsInVzZXJfaWQiOiI0YTI3NDUyNy02MzhhLTQzODgtODFmMC0xYmIzZTM1NGViNjMifQ.zgZJxWZbkFz0LROBpw8Rj1g8n260SNaRF74nAVixGcs' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Room better east over concern quite church.","maxScore":72,"minScore":1,"description":"Game mother religious scene must former ok. Leave see animal skill likely young. Shake hospital many media development.","estimatedTime":"8 weeks","previewFileId":"b56740a2-7d2b-424f-90de-fe5124b6d959","createdByUserId":"4a274527-638a-4388-81f0-1bb3e354eb63"}'

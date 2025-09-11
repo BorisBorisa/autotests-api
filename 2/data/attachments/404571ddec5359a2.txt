@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE1OjUyOjAwLjIzMTg2NSIsInVzZXJfaWQiOiI1MzI3YzczYS01NGFlLTQ5N2MtODBiZi0wNGNiZmMzOGIzNjMifQ.hvXpoqEsxKaZ-_KGKPzd1l_uzIkvTKIbw9sv8D-AHBw' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ever type country generation animal piece us.","maxScore":56,"minScore":21,"description":"Front myself item piece weight sometimes yeah fish. During assume here crime actually. Rise authority bank since actually.","estimatedTime":"1 weeks","previewFileId":"9cc2c23c-7349-46be-9371-7510f4d7d9ec","createdByUserId":"5327c73a-54ae-497c-80bf-04cbfc38b363"}'

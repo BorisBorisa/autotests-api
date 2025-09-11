@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE1OjUyOjAxLjQ3MjY1MyIsInVzZXJfaWQiOiI0YjQyYTk3ZS04YzAyLTRmZjgtYjY0Ni1hY2U5OTBjOWY5YWQifQ._8KwNaEWTS-RoynR4j5YZ4YC1b23xCBFVN3XcUq2XEk' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Through least day claim.","maxScore":82,"minScore":12,"description":"Agree ask believe others create. Air good page start service hold. American camera special bank family woman keep. Building born pass too cold.","estimatedTime":"4 weeks","previewFileId":"56d8da8e-683e-4d36-9fc7-307380bbe58f","createdByUserId":"4b42a97e-8c02-4ff8-b646-ace990c9f9ad"}'

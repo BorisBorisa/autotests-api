@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/49682481-0223-4188-a7c2-f183c4190694' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE1OjUxOjU3LjU4NTg5MCIsInVzZXJfaWQiOiIyZGM2Yzk2OS0xZjE5LTQxNzUtYmRiYy01YTgxNDFlMzBhNjUifQ.3DmPL6UlhIIO7vbGcLvO2fppuVcoWehMM5ToPy6MD_M' \
+  -H 'content-length: 221' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Feel say hit business media possible own.","maxScore":69,"minScore":6,"description":"Manager professional language trial though cause stand. News pressure article nearly early upon a.","estimatedTime":"4 weeks"}'

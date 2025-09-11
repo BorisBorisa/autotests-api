@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE1OjUyOjAwLjIzMTg2NSIsInVzZXJfaWQiOiI1MzI3YzczYS01NGFlLTQ5N2MtODBiZi0wNGNiZmMzOGIzNjMifQ.hvXpoqEsxKaZ-_KGKPzd1l_uzIkvTKIbw9sv8D-AHBw' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stop within source model part full range.","courseId":"d6a43120-e244-4c95-bb9b-cb841ba6f6b6","maxScore":100,"minScore":10,"orderIndex":8,"description":"Start air although edge admit. Authority night reflect box general election walk.\nDay if region stock small language. Center occur follow.","estimatedTime":"7 weeks"}'
