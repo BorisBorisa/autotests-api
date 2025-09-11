@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjI5OjQyLjI4NDg4MyIsInVzZXJfaWQiOiJiYWEzODk4OC0zNjgxLTRhY2YtOGMxNi1mZmM5MzVlYjI4MTMifQ.RjQK3ErGelToaRb9m-Cz5nb1bzZ8HKbtvWPYAucuRUw' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thus describe let will military.","maxScore":69,"minScore":23,"description":"It over home cold. Wish town whether long hold. Top wife who suddenly little. Image scene mind fire meeting.\nPhysical thank region also friend reality imagine or. Trade movie trade pay.","estimatedTime":"4 weeks","previewFileId":"c8fa82f2-3b5d-4a98-b547-a0b8169aa79f","createdByUserId":"baa38988-3681-4acf-8c16-ffc935eb2813"}'

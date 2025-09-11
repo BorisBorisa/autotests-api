@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjI5OjQxLjM2NzcxMiIsInVzZXJfaWQiOiIyZDEwNjE4ZC04ODUyLTQ1ZjAtOGNmMC1jZTgxYzBmYzQ3NDYifQ.c4H4dnvoyjozxo2Q3UWzBIR2pcMKSnQKoZ3KoBU_pNY' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"May college to.","maxScore":58,"minScore":24,"description":"Instead good there feel this lot red. Name some environmental can red. Design game interesting person evening.\nControl whose tell safe by. Report clearly point nice.","estimatedTime":"5 weeks","previewFileId":"4fa2de63-35dd-4083-8e3e-7bb15ddd4961","createdByUserId":"2d10618d-8852-45f0-8cf0-ce81c0fc4746"}'

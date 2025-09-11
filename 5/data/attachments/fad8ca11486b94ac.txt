@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjI5OjQyLjI4NDg4MyIsInVzZXJfaWQiOiJiYWEzODk4OC0zNjgxLTRhY2YtOGMxNi1mZmM5MzVlYjI4MTMifQ.RjQK3ErGelToaRb9m-Cz5nb1bzZ8HKbtvWPYAucuRUw' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Any throughout strong relationship performance enter money.","courseId":"0a543675-bbf0-45ed-8376-22b8828619ee","maxScore":57,"minScore":29,"orderIndex":3,"description":"Good age unit. Ask else rich condition.\nGirl garden either usually hold. Evening catch quite authority realize effect friend. Support last expect population everyone. Protect worry pay now.","estimatedTime":"3 weeks"}'

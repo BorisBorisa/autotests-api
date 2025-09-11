@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjI5OjM5LjkwMDg2MSIsInVzZXJfaWQiOiJmYjdhZWJmMy1kODYyLTQzMTktOWQzYy01MzNhZjkwZThmNTIifQ.oSW3InhfuXGJY0txr1GF0I61Wa4JSv9M6UNujETZUJ8' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Somebody thousand star hour.","maxScore":66,"minScore":20,"description":"Drive during far sell group create. Stock affect save deep military great.\nEat pull plan decision table quite box often. Least catch deep physical.","estimatedTime":"8 weeks","previewFileId":"64bd5a9a-82a1-4b97-8e11-186d470c728e","createdByUserId":"fb7aebf3-d862-4319-9d3c-533af90e8f52"}'

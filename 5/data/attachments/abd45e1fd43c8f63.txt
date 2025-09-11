@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjI5OjQzLjUxNjU5MCIsInVzZXJfaWQiOiI5MzM5NTM0NS05ZDQ0LTQ0NTktYjhkMy03NzNkMjhhM2JmYTAifQ.qY0HfrARBZN2kWgX1pKaqai58EWHG-BRy2zRzCZKPxk' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Than however concern large education network long.","courseId":"506f007f-8a38-4bd0-800e-96afe08b21fd","maxScore":54,"minScore":16,"orderIndex":89,"description":"Cold morning force. Thus believe service test stuff little test. Too nearly meet law everyone action.","estimatedTime":"5 weeks"}'

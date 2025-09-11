@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjI5OjQxLjA5NDk1MiIsInVzZXJfaWQiOiI5MDE5NmJhNy1lMDA1LTRkNDUtYWNmMy04YTY0OGMyMjQ1OGMifQ.c8JKvvE9D9y1oP7w8S8boOkAMVGSVmmKjO-naiAdN8g' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"A vote stage when personal write type parent.","courseId":"6b106e32-f6cf-41d5-8409-7d7ee7367eff","maxScore":84,"minScore":5,"orderIndex":48,"description":"Whose move degree force wish discuss. Design arm term energy imagine office fast.\nPolitical buy past hit figure bag same. Tonight business whole probably identify hope Mrs. Fill probably feeling.","estimatedTime":"3 weeks"}'

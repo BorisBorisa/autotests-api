@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6210f874-e3bc-42d0-929f-6e75d489d125' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjI5OjM5LjkwMDg2MSIsInVzZXJfaWQiOiJmYjdhZWJmMy1kODYyLTQzMTktOWQzYy01MzNhZjkwZThmNTIifQ.oSW3InhfuXGJY0txr1GF0I61Wa4JSv9M6UNujETZUJ8' \
+  -H 'content-length: 226' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Require make three.","maxScore":53,"minScore":5,"description":"Say head rule maybe above. Time city join skin six ten. Lose recently hit test. Central without each central Mrs throughout.","estimatedTime":"10 weeks"}'

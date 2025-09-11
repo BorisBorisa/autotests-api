@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjI5OjQxLjA5NDk1MiIsInVzZXJfaWQiOiI5MDE5NmJhNy1lMDA1LTRkNDUtYWNmMy04YTY0OGMyMjQ1OGMifQ.c8JKvvE9D9y1oP7w8S8boOkAMVGSVmmKjO-naiAdN8g' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dog stage attention star arrive alone method team.","maxScore":59,"minScore":17,"description":"Word card without lot site. Kitchen then mention market.\nVery century reveal concern approach service. Far maintain class star without realize hundred.","estimatedTime":"1 weeks","previewFileId":"cd78069f-68f0-4bbd-a53d-7fc5c4d171d9","createdByUserId":"90196ba7-e005-4d45-acf3-8a648c22458c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjI5OjQwLjE3MzgzMSIsInVzZXJfaWQiOiJiMDkxZjZkNi1hNTE3LTQyM2QtOTQ3Yy0zOWI5M2U4N2IwYWUifQ.t6bKdFDZmWA5oY5G1o6Bc6xcxsfe3LKInfGN_qqhY88' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Consumer east strong who experience sister.","maxScore":70,"minScore":11,"description":"Student especially they form pay but story back.\nFinish he night dinner. Group brother service water itself hot. Away head how toward.","estimatedTime":"4 weeks","previewFileId":"08f35916-93f5-44a7-bfe2-c9734b6222a4","createdByUserId":"b091f6d6-a517-423d-947c-39b93e87b0ae"}'
