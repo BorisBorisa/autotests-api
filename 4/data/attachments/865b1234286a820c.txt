@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA5OjQ3LjU1NTA0MyIsInVzZXJfaWQiOiI5YWJkNjQ4Ni03MjRmLTRmMWItODk1Zi04YjFhZGQzNDFjMjUifQ.2U3HZkYs5Mu-LAL1OGxBKhu42GN_WAfwCe5gx7rKK7A' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cost fight live.","maxScore":88,"minScore":7,"description":"East always poor artist building central. Soon method fine. Fast knowledge staff million two behind.\nImagine television number million.","estimatedTime":"5 weeks","previewFileId":"8ac4991e-7f0e-4bb3-886d-58d89c486d82","createdByUserId":"9abd6486-724f-4f1b-895f-8b1add341c25"}'

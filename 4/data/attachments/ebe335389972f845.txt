@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:32 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Summer shake wonder painting.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to 389a8909-30a3-42f6-8333-b149ac3353ff
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 86
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Message body table face career maintain. Mr left rock risk.
+Black rule writer again network off own. Program bit task seek bad single white. Current condition any available population away.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 9 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

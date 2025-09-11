@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA5OjQ4LjUwNTQ3MyIsInVzZXJfaWQiOiI5MjJhZWJkNC1lMzgzLTQzYjMtYjY4Ny1mZjAxMWM2OWVkM2UifQ.vQOPOE58GKVpISX7kvxPE2G2a3DOzPPGK7JyaJQNVto' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Word peace ground plan little.","maxScore":69,"minScore":7,"description":"Offer director machine agency. Technology between might. Area season commercial under require situation.\nGame small protect side bank box director. Ball close base fire.","estimatedTime":"6 weeks","previewFileId":"fe62a259-b48c-4361-b93d-baca09f24de7","createdByUserId":"922aebd4-e383-43b3-b687-ff011c69ed3e"}'

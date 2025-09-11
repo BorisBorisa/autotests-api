@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA5OjQ2LjM2MzQ4MyIsInVzZXJfaWQiOiJjOWZlYjExZC1jY2U4LTQ0MWMtYjlhNS1lZmNhOWMzNDg0NzgifQ.j8AHBArNL9qrJNSSAZ6D4fzv3yfah83OyyTmTPPnMYg' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Inside prove provide herself single poor want according.","maxScore":56,"minScore":13,"description":"Little in direction rule look.\nPrepare out rich others authority probably. He other identify can tell build many. Former better practice together.","estimatedTime":"5 weeks","previewFileId":"2ba71a2c-7cbf-4071-8520-40337c8deec8","createdByUserId":"c9feb11d-cce8-441c-b9a5-efca9c348478"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTExVDE2OjA5OjQ0Ljg5OTIzMSIsInVzZXJfaWQiOiJkNTljNWZhMS0wY2ExLTRmYmMtOThmZi04NmM0Yjg1MDE2ZWIifQ.xARxuVWc9_Rfc5sS-JOyO_O2R7zxCtzjBinX--3cE3k' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evidence international win scientist per happen do.","maxScore":95,"minScore":10,"description":"Color create of reduce become out bit. Course live unit more enough reflect.","estimatedTime":"3 weeks","previewFileId":"70aa00e2-6eb5-4ec0-974d-ea8e40b4e351","createdByUserId":"d59c5fa1-0ca1-4fbc-98ff-86c4b85016eb"}'
