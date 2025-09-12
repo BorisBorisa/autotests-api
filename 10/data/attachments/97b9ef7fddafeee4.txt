@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM1OjI4LjcyNTY2MyIsInVzZXJfaWQiOiI3MWNiYmU1ZS1kMjM5LTQ4N2MtOGIxNi0xNjhkMjZmYjQ4MDgifQ.fsOf3jPU-geRlsUEbKKyMAaif-W1M0fOmw4p92Xet8A' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ten themselves official to.","maxScore":95,"minScore":3,"description":"Represent go or those Mr buy enough. Wide without gas sometimes.\nTv manager floor bring senior group. Street relate fight majority. How network wonder blue once score energy service.","estimatedTime":"4 weeks","previewFileId":"0862a7f0-ea41-41f4-b09d-b5502d2b01d1","createdByUserId":"71cbbe5e-d239-487c-8b16-168d26fb4808"}'

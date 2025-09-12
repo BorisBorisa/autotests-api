@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM1OjI5LjY0OTU0OSIsInVzZXJfaWQiOiJjNGVhYTNlMi00ZWRkLTRiZmQtOTMxZi0xMDUyODJjOTdlZTkifQ.fn7ltuFX1kH5vC_pdoSm6KycLI8ZNR94rux1Hi0z9ns' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"High significant likely remain wonder building.","maxScore":58,"minScore":12,"description":"Marriage site line effort continue exactly. Meeting suffer trade special. Statement structure wait language responsibility generation mother authority.","estimatedTime":"6 weeks","previewFileId":"92e8a423-1619-416c-b990-bc4cd62752bc","createdByUserId":"c4eaa3e2-4edd-4bfd-931f-105282c97ee9"}'

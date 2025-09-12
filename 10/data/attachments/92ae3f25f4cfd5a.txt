@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/courses?userId=c65397f6-c480-4397-b87f-a97269790f5d
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=c65397f6-c480-4397-b87f-a97269790f5d
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:73 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:75 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:48 Check course
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to c50e9a03-b3b2-4a25-b6e6-3a209f0396cb
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Out figure resource computer stay price player.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 79
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Art create point interview. Yet message water parent chair down marriage. Manager interesting always clear ground.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 4 weeks
+INFO     FILES_ASSERTIONS:files.py:52 Check file
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to f1bdcf5c-d132-47de-b9e1-26146e367103
+INFO     BASE_ASSERTIONS:base.py:39 Check that "url" equals to http://localhost:8000/static/tests/78bc6554-4a46-4479-8a67-57b8daf54c6b.png
+INFO     BASE_ASSERTIONS:base.py:39 Check that "filename" equals to 78bc6554-4a46-4479-8a67-57b8daf54c6b.png
+INFO     BASE_ASSERTIONS:base.py:39 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:41 Check user
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to c65397f6-c480-4397-b87f-a97269790f5d
+INFO     BASE_ASSERTIONS:base.py:39 Check that "email" equals to stephanie15@example.org
+INFO     BASE_ASSERTIONS:base.py:39 Check that "last_name" equals to Marquez
+INFO     BASE_ASSERTIONS:base.py:39 Check that "first_name" equals to Jacob
+INFO     BASE_ASSERTIONS:base.py:39 Check that "middle_name" equals to Brian
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM1OjMwLjgyNzgwNCIsInVzZXJfaWQiOiI5YTQ0ODIwNS00NDI3LTQwMDQtODJhMS0xMGU0NmFmOTg3YzgifQ.erI0btAr6uU-AXYpW6ACHkolbNHu1_w8z3TVup12Dak' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Audience piece TV buy machine.","maxScore":76,"minScore":12,"description":"Good position in wide east century. Move argue manage Republican.\nRather result notice. Relate kind process trial certainly other well three. Chair really late follow. Tough bar clear reveal role up.","estimatedTime":"3 weeks","previewFileId":"9a9b3677-9ee5-4d07-83ec-85e39b69d913","createdByUserId":"9a448205-4427-4004-82a1-10e46af987c8"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM1OjMxLjEwMjQ1OCIsInVzZXJfaWQiOiIwYzRhZmUxNi03NDliLTRjYzUtYjAwNC1lMDUwMTlkYzIzNzYifQ.N_bBZHzYH89SyQVM7NgrayOKvhTiZf-sp0uCSTDJK5s' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cost big look phone.","courseId":"04d31aba-c71c-4707-a36a-afcd25cb17ec","maxScore":61,"minScore":15,"orderIndex":26,"description":"Behind decade voice lead I year. Million boy kid third chance. Where growth near.\nGive wait wear out general whole hear. Call fact consider grow. Force piece growth fund many.","estimatedTime":"4 weeks"}'

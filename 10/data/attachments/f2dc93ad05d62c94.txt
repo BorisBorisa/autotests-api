@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM1OjI5LjkyMzkyNCIsInVzZXJfaWQiOiJkYTdkZTc0Yy1mYTJmLTQyZDItYjFlOC05MzhjNzNhMmUzYWQifQ.pHVzjtH_svkvRSBEJ09r6Y1cSO0ADKLqzqtTzOIj36A' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Myself area inside manager imagine still.","maxScore":80,"minScore":4,"description":"War truth certain close like. Structure movie great fund present quality.\nDifficult military within method read find century. Item kitchen these. Little small have.","estimatedTime":"6 weeks","previewFileId":"3034cc7c-2e58-4b7b-a788-d3e3de75a8f9","createdByUserId":"da7de74c-fa2f-42d2-b1e8-938c73a2e3ad"}'

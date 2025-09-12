@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM1OjI3LjMxNjU0NCIsInVzZXJfaWQiOiJjNjUzOTdmNi1jNDgwLTQzOTctYjg3Zi1hOTcyNjk3OTBmNWQifQ.mGvHM36V5uxSPIrNYJ-Qk7fg6u0c-DMII0mFsu_OaiY' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Out figure resource computer stay price player.","maxScore":79,"minScore":6,"description":"Art create point interview. Yet message water parent chair down marriage. Manager interesting always clear ground.","estimatedTime":"4 weeks","previewFileId":"f1bdcf5c-d132-47de-b9e1-26146e367103","createdByUserId":"c65397f6-c480-4397-b87f-a97269790f5d"}'
