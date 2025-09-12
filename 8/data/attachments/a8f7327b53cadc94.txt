@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjU4OjE2LjI0Mzk0NyIsInVzZXJfaWQiOiI2MDI4ODU3NC03MWFkLTRiNmEtYTdiOC01NTQ4NGIzYTlhZmMifQ.q1mVciX1yqmcfMOU4Dj_9Bk7fqViSW_AgjcXaT09cGA' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Development strong artist page.","maxScore":64,"minScore":25,"description":"Chair each few bank price recently military. Economy why condition break age. Thank family quite last inside describe almost. You cell situation mind simply suggest cup.","estimatedTime":"7 weeks","previewFileId":"2f9d03fd-dcde-451c-908d-89e336a77be8","createdByUserId":"60288574-71ad-4b6a-a7b8-55484b3a9afc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjU4OjEzLjY0MjE3NSIsInVzZXJfaWQiOiJlNzAzOGM0YS0wZTEzLTQzMjUtYmJhNy1hMTJlNzZiNjhjOGQifQ.Lk7UHwayNMIh3Uu52Zo1yHurlYQf9VJMAM-yygxhql0' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Work really buy wide production different.","maxScore":88,"minScore":24,"description":"Interest concern well quite. Step school others. Environment daughter power strong.","estimatedTime":"8 weeks","previewFileId":"0fad3b44-51a1-4cc3-97a3-7b11dece5981","createdByUserId":"e7038c4a-0e13-4325-bba7-a12e76b68c8d"}'

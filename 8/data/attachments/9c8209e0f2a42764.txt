@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjU4OjE4LjM3MTQ1MiIsInVzZXJfaWQiOiI5ODgzNWEzMy0yODMwLTRhYjgtOTU5NC0zZDNiOTMzOWUyMWQifQ.69UzFhpODhGcjpzB_pp-Puk53utBISyzNq6s6724QK8' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bring card nation senior.","maxScore":88,"minScore":23,"description":"Little they leave middle act. Team authority hospital fish let factor eight subject.\nCold air the price. Toward score skin.","estimatedTime":"6 weeks","previewFileId":"8455f513-8c5b-4e80-8241-3fb73598af48","createdByUserId":"98835a33-2830-4ab8-9594-3d3b9339e21d"}'

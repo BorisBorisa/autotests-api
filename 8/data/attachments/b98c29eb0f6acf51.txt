@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b1e1d031-e812-47ac-84bd-98910a51ba5c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjU4OjE0Ljc4NTAzMCIsInVzZXJfaWQiOiIyMWIyNzcxOC0wOGZhLTQyZGEtOTg5ZC1lMWUyYjk2NzE3MjYifQ.hPaqnC4m0KM9P-8pAWqZVdIp_UU_qkqCeoAgXg6g7EY' \
+  -H 'content-length: 231' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anything alone give.","maxScore":73,"minScore":24,"description":"Million in traditional key produce example. Pressure see remain very short rest action line. Generation doctor free seem better.","estimatedTime":"4 weeks"}'
