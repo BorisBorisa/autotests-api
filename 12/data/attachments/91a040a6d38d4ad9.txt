@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE3OjIwOjIyLjA3MDEzMSIsInVzZXJfaWQiOiJkYjlhNmEwOS1lMTc3LTQ5ZmQtOTUzMC01ODAwNTBjZjE4NDkifQ.t9t9UBhisTBksYoKt449AUbhLHauCpjcp1JgQsWMgFg' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tonight least course recent contain house fall space.","maxScore":80,"minScore":18,"description":"Record concern either interesting different item. Star fire responsibility mention.","estimatedTime":"8 weeks","previewFileId":"6c50adcb-b3db-49e4-93df-b83a0dc9348a","createdByUserId":"db9a6a09-e177-49fd-9530-580050cf1849"}'

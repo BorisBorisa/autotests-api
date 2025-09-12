@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE3OjIwOjI1LjU4MTQ0NiIsInVzZXJfaWQiOiIwMWQ0YjM0Ni05N2NiLTQzN2YtOGE2MS00YTg0YWU2MDM0NGMifQ.e_jGVoLO8kuKJ-YVaqCKZbbsdOB-2-LpvLd5JJE3TTc' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Product wide since quality would mind.","courseId":"b50c19f5-9b3f-4854-ae7e-f7ef0eaf3cb2","maxScore":65,"minScore":17,"orderIndex":85,"description":"Start without institution here. Focus eat listen.\nGovernment country wrong seven baby your.\nToo about play various that try. Budget table peace half yet.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE3OjIwOjI2Ljc5ODI4NiIsInVzZXJfaWQiOiI4MGY3ZGFlNS0wNjdjLTRkMWEtYmY3OS00ZjUxOWMwMzEwMjQifQ.0Xi2JrqsFqm3ab2N9f8e72T92rRIN_TJPKDk58GccRE' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Investment resource close such.","maxScore":64,"minScore":3,"description":"Any your why. Wish its guy statement whatever. Try rest understand energy probably.\nTrip wear participant church. News artist outside decision small.","estimatedTime":"9 weeks","previewFileId":"d20e3f34-cd6d-4a6a-84d5-58a8615d15c3","createdByUserId":"80f7dae5-067c-4d1a-bf79-4f519c031024"}'

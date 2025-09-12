@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:27 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:27 Make GET request to http://localhost:8000/api/v1/exercises/c04aaecd-79f7-4d1a-acab-890ec4f6d544
+INFO     HTTP_CLIENT:event_hooks.py:36 Got response 200 OK from http://localhost:8000/api/v1/exercises/c04aaecd-79f7-4d1a-acab-890ec4f6d544
+INFO     BASE_ASSERTIONS:base.py:20 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:76 Check get exercise response
+INFO     EXERCISE_ASSERTIONS:exercises.py:52 Check exercise
+INFO     BASE_ASSERTIONS:base.py:39 Check that "id" equals to c04aaecd-79f7-4d1a-acab-890ec4f6d544
+INFO     BASE_ASSERTIONS:base.py:39 Check that "title" equals to Product wide since quality would mind.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "course_id" equals to b50c19f5-9b3f-4854-ae7e-f7ef0eaf3cb2
+INFO     BASE_ASSERTIONS:base.py:39 Check that "max_score" equals to 65
+INFO     BASE_ASSERTIONS:base.py:39 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:39 Check that "order_index" equals to 85
+INFO     BASE_ASSERTIONS:base.py:39 Check that "description" equals to Start without institution here. Focus eat listen.
+Government country wrong seven baby your.
+Too about play various that try. Budget table peace half yet.
+INFO     BASE_ASSERTIONS:base.py:39 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE3OjIwOjI0LjM5NDYxMSIsInVzZXJfaWQiOiIzZjYwZDBkZS00ZDIwLTQ1ZmEtODQyNi0yMDBjNzM5ZDQ2MmQifQ.AbGVm-7LdBtSIj3Y8uYFryd9oz4xdAtgbon_2Wiaw4o' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Fact risk hit.","maxScore":94,"minScore":3,"description":"Security identify none everything watch amount technology.\nSupport ago person decision. Address national pass woman miss fill.","estimatedTime":"10 weeks","previewFileId":"cda72b09-28fc-40ab-a83b-93bfcee3c9d8","createdByUserId":"3f60d0de-4d20-45fa-8426-200c739d462d"}'

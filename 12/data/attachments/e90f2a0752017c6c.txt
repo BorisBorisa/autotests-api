@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE3OjIwOjIzLjIwMjU4NiIsInVzZXJfaWQiOiI0MDA3YzRkMS04NzlkLTRhZWUtYmQwNS04ODU4OTI1NDY2NzIifQ.vjXrOMHEIXUXO-Z8uEWqk5w796UmL1OijRScAUAJPK4' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Weight read vote peace standard.","maxScore":82,"minScore":18,"description":"Specific laugh number item near soldier. Trade society where long interesting bad network.","estimatedTime":"7 weeks","previewFileId":"7ccb65b1-16ea-4195-a2ff-50b6110664e3","createdByUserId":"4007c4d1-879d-4aee-bd05-885892546672"}'

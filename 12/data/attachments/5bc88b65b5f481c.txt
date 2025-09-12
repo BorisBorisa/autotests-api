@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/dcfb2d59-3ac5-4f93-abdf-4497687db44b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE3OjIwOjIzLjIwMjU4NiIsInVzZXJfaWQiOiI0MDA3YzRkMS04NzlkLTRhZWUtYmQwNS04ODU4OTI1NDY2NzIifQ.vjXrOMHEIXUXO-Z8uEWqk5w796UmL1OijRScAUAJPK4' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rest physical wear ground central southern fall.","maxScore":56,"minScore":18,"description":"Necessary state day key. Quickly range goal start able.\nStrong area indeed society sea its something. Agreement TV black rather music light interview assume.","estimatedTime":"8 weeks"}'

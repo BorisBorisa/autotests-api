@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE3OjIwOjI2Ljc5ODI4NiIsInVzZXJfaWQiOiI4MGY3ZGFlNS0wNjdjLTRkMWEtYmY3OS00ZjUxOWMwMzEwMjQifQ.0Xi2JrqsFqm3ab2N9f8e72T92rRIN_TJPKDk58GccRE' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attack television than as fire hundred nor.","courseId":"63e98913-214f-4502-b0b6-96a51d418f0e","maxScore":83,"minScore":8,"orderIndex":89,"description":"Always what group candidate stock late drive take.\nVisit here future amount civil. Cut admit world. Only such audience ask upon force culture.","estimatedTime":"7 weeks"}'

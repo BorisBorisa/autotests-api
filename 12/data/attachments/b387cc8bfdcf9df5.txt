@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE3OjIwOjI0LjY2ODA3NiIsInVzZXJfaWQiOiIxYTI0NjVlYy0zMWJiLTQ4YmQtYjg5ZS01OTJiNjgwNmU5NmEifQ.0Ft-JPZdAGLC8sIFLYG622p4W7zTMMLxOIC2tireRXs' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Exactly go mind should body see indicate.","courseId":"576f5c4f-6932-4b39-b66c-0d60d2a0bc99","maxScore":76,"minScore":7,"orderIndex":53,"description":"Support detail word usually. Ahead forget lawyer forget house by. Former realize traditional question weight open street.","estimatedTime":"4 weeks"}'

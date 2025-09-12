@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE3OjIwOjI1LjU4MTQ0NiIsInVzZXJfaWQiOiIwMWQ0YjM0Ni05N2NiLTQzN2YtOGE2MS00YTg0YWU2MDM0NGMifQ.e_jGVoLO8kuKJ-YVaqCKZbbsdOB-2-LpvLd5JJE3TTc' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner commercial necessary class eye Mrs.","maxScore":74,"minScore":7,"description":"During message such institution you few. Big many care development citizen.\nFood thought suffer instead past cover clearly. Agreement act million girl relationship.","estimatedTime":"3 weeks","previewFileId":"eb0fbfb0-7cde-49ac-87b0-1f96575135ca","createdByUserId":"01d4b346-97cb-437f-8a61-4a84ae60344c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE3OjIwOjIzLjQ3NjAyNSIsInVzZXJfaWQiOiI1NTM4NDcyMS04YzFlLTQ3NmYtYjMyNC04ZDczZDQ4ZjZmZDgifQ.0TdT93niHAahbAcUJFaPyEGIvDQ-0QUmKSNqqwKJ_j4' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Move several suddenly value.","maxScore":96,"minScore":20,"description":"Per music bed air. Quality worry pay film boy.\nTerm audience option. Material class only page wide remember debate. Actually prove government personal system feel reflect.","estimatedTime":"5 weeks","previewFileId":"bb075d8b-48ca-4b08-8d99-dc047355e4e8","createdByUserId":"55384721-8c1e-476f-b324-8d73d48f6fd8"}'
