@@ -11,3 +11,6 @@ allure-report
 
 #swagger-coverage-tool
 coverage-results
+coverage.html
+coverage-history.json
+coverage-report.json
