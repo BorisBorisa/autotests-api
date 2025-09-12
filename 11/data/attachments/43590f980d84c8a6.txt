@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/8848d117-b4f4-49d2-b522-33640e296277' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM4OjI4LjIzMDc3MyIsInVzZXJfaWQiOiJmOTE1OTBjNS03NDFhLTRhN2MtOTJlNS0xYTk1YTU0MDgzMmUifQ.CYIUu9GUU7TGf9zNLZMDWnnZkpNffG422dmbWxSfUGE' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finish note decade agency plan name along baby.","maxScore":58,"minScore":30,"orderIndex":89,"description":"Blood whose read picture information. Author area rather thought fact anything south. Real another right certainly.","estimatedTime":"9 weeks"}'

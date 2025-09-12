@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM4OjI5LjQxMzM0OSIsInVzZXJfaWQiOiIyNWZkMDY4My04ZmU3LTRkY2EtYjA3OS0wZmQyM2Y0YTlkZGMifQ.UdNDqGiEA4h2hCbRzsTgtnc6xIK1ALwhyr0ryK0W2EI' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Campaign business number sit require.","maxScore":63,"minScore":23,"description":"Design my charge true stage. Trip anyone every successful behavior show imagine. Future sound over probably sell dream.\nAny history pressure bring economy agency.","estimatedTime":"2 weeks","previewFileId":"c4bf0269-af02-4c6a-8424-c252aef5cbbf","createdByUserId":"25fd0683-8fe7-4dca-b079-0fd23f4a9ddc"}'

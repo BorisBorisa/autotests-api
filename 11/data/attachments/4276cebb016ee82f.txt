@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7ea3c9f6-bcb4-4121-94a3-b9bfec4f670c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM4OjI2Ljc2NjA5MyIsInVzZXJfaWQiOiI5ZTM4ODZkZS04YzJkLTQ5MjUtOGMzYi1iODNmMGUwMzY5NjkifQ.xMblw8u576na0hIkIyC7m0tu_4kEIz_2iwx0wk1AO8g' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Financial we wait country at film.","maxScore":97,"minScore":19,"description":"Or certain security consider. Enjoy stand report hope.\nChoose respond moment. Million power might space stay tell.\nAny purpose only people because protect. There address pretty kind draw.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM4OjI3LjAzOTk2MiIsInVzZXJfaWQiOiJiYmU1MGMxZS1hYTA1LTQyNDktOGNkYS1kNGYzMWYzNDIxODEifQ.HrFxtRb06GnSJjEu9wnkqkciv1oe4Tydev9pz8xQQ5I' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Southern open somebody certain.","maxScore":99,"minScore":9,"description":"Real card region but person by sure. Various treatment course.\nAudience treatment pull purpose well trial. Support recognize public part camera.","estimatedTime":"6 weeks","previewFileId":"27b1f63a-1634-42b3-87c2-aaf6fdf371ce","createdByUserId":"bbe50c1e-aa05-4249-8cda-d4f31f342181"}'

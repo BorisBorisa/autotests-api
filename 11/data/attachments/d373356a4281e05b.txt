@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM4OjI4LjIzMDc3MyIsInVzZXJfaWQiOiJmOTE1OTBjNS03NDFhLTRhN2MtOTJlNS0xYTk1YTU0MDgzMmUifQ.CYIUu9GUU7TGf9zNLZMDWnnZkpNffG422dmbWxSfUGE' \
+  -H 'content-length: 277' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Author stock little ability court understand.","courseId":"6441d361-897d-417d-b842-c2dce0ef3714","maxScore":52,"minScore":18,"orderIndex":43,"description":"Her consider science. Huge figure son share. Number clearly finish bill up draw my.","estimatedTime":"1 weeks"}'

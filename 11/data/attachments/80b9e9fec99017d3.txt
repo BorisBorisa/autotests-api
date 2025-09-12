@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM4OjI5LjE0MTM2MyIsInVzZXJfaWQiOiIwMTExZWEwZC00NWEyLTQyY2ItYWNkNC1lMDY2YTcwYWVhMzcifQ.FkQe4_4euOG08mWNJknZsUTGBNKhS7IMf21BkgM4qYc' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Apply example benefit economy understand safe similar.","maxScore":68,"minScore":23,"description":"A four gun up. Effort simply action.\nTerm every case. Face indeed ability edge issue deep.\nFocus trip local.","estimatedTime":"8 weeks","previewFileId":"fbae64ef-30e5-49b9-9d43-14e4b7d7cc83","createdByUserId":"0111ea0d-45a2-42cb-acd4-e066a70aea37"}'

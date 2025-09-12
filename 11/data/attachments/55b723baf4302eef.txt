@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM4OjI1LjYyODE1OCIsInVzZXJfaWQiOiI5MjBkMTFmZC0yYjZkLTRmMjMtYTEyNi0zYzFhYzE2ZWE1ZjUifQ.bAUYZS0xkF7vZES6OTXFBFH8krTyQesmiNYSNIVdkUs' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Marriage write later dream suffer a newspaper.","maxScore":63,"minScore":20,"description":"Dream maintain half without enter somebody plan long. Public sort agreement real final.\nSuddenly sell partner prevent health. Safe something its difficult.","estimatedTime":"2 weeks","previewFileId":"15a16413-5c83-47ea-a2d5-9103ac49cecf","createdByUserId":"920d11fd-2b6d-4f23-a126-3c1ac16ea5f5"}'

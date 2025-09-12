@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM4OjI3Ljk1ODAzMyIsInVzZXJfaWQiOiI1MjNhNDc2ZC1hZmNiLTQzZmMtYTVkMC0yMDJmODhmYmJhYTEifQ.l8Ezj7avTgdlz9exK0LTb8uDCRpAbqdFDlIaRv-Quho' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Late prepare series economic find energy table.","courseId":"bba2ae8b-f122-46c5-861a-f86e37ef00f0","maxScore":67,"minScore":2,"orderIndex":35,"description":"None many important leg decision.\nWord week team education summer value value pressure. Relationship popular call community. Paper majority military during word brother protect.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjM4OjI2Ljc2NjA5MyIsInVzZXJfaWQiOiI5ZTM4ODZkZS04YzJkLTQ5MjUtOGMzYi1iODNmMGUwMzY5NjkifQ.xMblw8u576na0hIkIyC7m0tu_4kEIz_2iwx0wk1AO8g' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Place meeting get economic would.","maxScore":85,"minScore":11,"description":"Region bit relationship shake she once election glass. Range meet into beautiful lay.\nTrip image know under agent issue pay center. Center discover person. At event city guess people.","estimatedTime":"3 weeks","previewFileId":"f47f14c2-166b-499f-b80c-727f767ade84","createdByUserId":"9e3886de-8c2d-4925-8c3b-b83f0e036969"}'
