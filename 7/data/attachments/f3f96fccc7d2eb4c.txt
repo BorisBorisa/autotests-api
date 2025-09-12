@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjUzOjMyLjYwODMxOCIsInVzZXJfaWQiOiJiZmU4NzYxMy0wYTI2LTRlNGItYmZjZS1lYTkwZjQ2MWQ1ZGYifQ.4TjdczI8dlTwdDsUV09hRsL9oUa7eQHWxUo3DSyJpws' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Across process game cover stuff college.","maxScore":82,"minScore":8,"description":"Course security difference. Evening his there easy pull south.","estimatedTime":"2 weeks","previewFileId":"c1b8ac3d-2c32-4d81-b9f2-29732eaa6e13","createdByUserId":"bfe87613-0a26-4e4b-bfce-ea90f461d5df"}'

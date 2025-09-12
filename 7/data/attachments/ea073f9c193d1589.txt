@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjUzOjMyLjMzNTI1NiIsInVzZXJfaWQiOiI4NWQ0ODc1Ny0xYjZlLTQ2MGItOWFjZS0yYWM1MzlhYjcxNDIifQ.3QRm7Wa70jBnLhKBLnech64GyW4IPdQCENuPBR6ZCz0' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal none either explain high then pretty.","courseId":"29b7c846-6c9b-4313-82d9-491d0d756ad3","maxScore":63,"minScore":17,"orderIndex":39,"description":"Risk build team far commercial. Relationship team meet federal face city church adult. Along condition account your community give.","estimatedTime":"2 weeks"}'

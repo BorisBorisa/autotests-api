@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjUzOjMxLjQxMzc3OCIsInVzZXJfaWQiOiI1NjM0YjQyYi02OTlhLTQ5ZGEtYjdhMi0xNGUwZmVhMTVhYmMifQ.7JZB0uUHlYkHZqq2VvM-g5HJWF4AzkL8sl_AdZ4a9P8' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Travel economy hold poor security those.","maxScore":72,"minScore":21,"description":"Page after significant continue. Line three response month clear kind.","estimatedTime":"10 weeks","previewFileId":"4494a85a-67fb-44d0-a230-9c8312adf496","createdByUserId":"5634b42b-699a-49da-b7a2-14e0fea15abc"}'

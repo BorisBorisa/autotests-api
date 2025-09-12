@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjUzOjMzLjUzNjUxOCIsInVzZXJfaWQiOiJiNzZmZDM0Ni03Y2M5LTRlMDEtOTg5OS0xZjU4YzFjZTZhZGMifQ.-yTZk9mR3qzalxYHhW68wWpptSFt8LrH74kybKpHF30' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wrong meeting financial.","maxScore":65,"minScore":11,"description":"Will against pattern dinner people nature college. According enter expert reason.\nOld system officer purpose specific trial story. Employee PM sport protect.","estimatedTime":"10 weeks","previewFileId":"d85fb231-96af-4db4-b702-bab8ba2e0b23","createdByUserId":"b76fd346-7cc9-4e01-9899-1f58c1ce6adc"}'

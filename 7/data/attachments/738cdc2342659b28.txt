@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjUzOjM0Ljc3MjE5MSIsInVzZXJfaWQiOiJiNWQwNjdmNS03NDRkLTQyMDUtYWZlYi1jNGYwYjQzNGZiNTIifQ.2lJzWdOkoDzfwgj-nxga7Gk6VBhfJa6cHQhlziFXZaU' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Well four alone young much happen four animal.","maxScore":98,"minScore":23,"description":"Nor market process once couple. Item strategy inside position and side. Consider fire measure late stock.","estimatedTime":"3 weeks","previewFileId":"f177aec3-7078-4d5f-bbef-4b56c494f5ab","createdByUserId":"b5d067f5-744d-4205-afeb-c4f0b434fb52"}'

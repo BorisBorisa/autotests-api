@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjUzOjI5Ljk5ODkwMiIsInVzZXJfaWQiOiJmNzdmNzY0Mi00M2U1LTRmMDYtYjllNS0yMzgwZDIxZWY4ZmUifQ.2pJlnmUUSV261ntWDiE_AQi74czoIrPyDxupagl6huo' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Couple yes investment do rate let.","maxScore":77,"minScore":18,"description":"Politics weight discover early forget. Speak side camera goal first business. Paper half particularly town technology rule attack.","estimatedTime":"1 weeks","previewFileId":"3f542465-18fa-483b-b015-24db4ad04012","createdByUserId":"f77f7642-43e5-4f06-b9e5-2380d21ef8fe"}'

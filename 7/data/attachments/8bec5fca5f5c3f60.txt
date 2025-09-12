@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjUzOjMzLjgxMDAxOSIsInVzZXJfaWQiOiJlMWE2MWY1Ny1hYWRlLTQzOWMtYWExNi02NGVkZDUyNTA1NjMifQ.Bxr-GbfOHIfQphYkQkvw9cVigLqzRmFncPjsNJ1hQjc' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Its party strong building real rule.","maxScore":59,"minScore":10,"description":"Agree customer fast mother over war who. Create space majority need common star.\nLess fine first very decade eat. Group role health.","estimatedTime":"8 weeks","previewFileId":"3a419b7a-0dbb-4c3f-a95e-1acc6bc30d79","createdByUserId":"e1a61f57-aade-439c-aa16-64edd5250563"}'

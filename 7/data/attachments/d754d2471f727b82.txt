@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE1OjUzOjMxLjE0MDQ4MiIsInVzZXJfaWQiOiJmN2UyN2VjMy05MDUyLTQyNjEtOGFjMi03MmMyNjczMzFiZjkifQ.es2qyly6DbaCfOysx9aYMhYQVdbaS-LMFfaa-ePYP60' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evening heavy financial oil within live treatment.","maxScore":92,"minScore":8,"description":"Wear human democratic. Pick huge wind phone. Serious ago between.\nKind stand peace music Democrat rule. Wide series run to yes who training.","estimatedTime":"5 weeks","previewFileId":"fdb73b08-00b9-4339-9341-6cfe95bd9550","createdByUserId":"f7e27ec3-9052-4261-8ac2-72c267331bf9"}'
