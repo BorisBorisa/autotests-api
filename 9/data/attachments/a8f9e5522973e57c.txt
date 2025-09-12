@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjMyOjA0Ljg2NDE2NSIsInVzZXJfaWQiOiI2MGVkYTU2Ny1jMzQ0LTRlZWYtOTNkNi0yZjMyZmIwZTFmNGEifQ.GLBF3TL6R2eJnmw-vwX54MZYxuR1aarGAtHLBBMre_E' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agent but spend should.","courseId":"6ed3cddb-8ab4-4cd2-b7a7-4a40c0b917e4","maxScore":83,"minScore":6,"orderIndex":51,"description":"Though answer feeling cost understand course purpose. Get spring road available do movie participant.\nCourse place drug black. That public test discover financial ability.","estimatedTime":"10 weeks"}'

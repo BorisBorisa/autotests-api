@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjMyOjA2LjA4MjY4NCIsInVzZXJfaWQiOiIyMDE4MTVlNS1kNTIwLTQ2ZDYtOGQyYy1jNzdjZjNkNmMwZDQifQ.U3zt6vVjupQ9_Br9FgdYQP4XFiTQSlavd8UmEhZbGuY' \
+  -H 'content-length: 286' \
+  -H 'content-type: application/json' \
+  -d '{"title":"From city later way condition Democrat affect pretty.","courseId":"34ca5182-c023-4706-a56d-234f441b43bc","maxScore":79,"minScore":7,"orderIndex":39,"description":"Situation behind opportunity become attorney appear. Line care worry total within no.","estimatedTime":"9 weeks"}'

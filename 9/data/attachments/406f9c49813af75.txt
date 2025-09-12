@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjMyOjAzLjYxMzE5NiIsInVzZXJfaWQiOiJkNzNiZWM2Ni05NmIwLTQ1Y2EtYmVjOS1hZDg1YzNkMWRiNzAifQ.k5q0wFa59lk2VspVVvK6fRSzyL_TYURU4JzjWLwLufc' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lot stock camera candidate sense theory condition open.","maxScore":68,"minScore":4,"description":"Price learn mind nothing PM realize must. Building determine maybe miss figure determine. Fear despite last worry know among manager.\nKind quickly hour daughter onto war.","estimatedTime":"6 weeks","previewFileId":"7445d2af-a643-4998-8e64-443c6d9c1f2e","createdByUserId":"d73bec66-96b0-45ca-bec9-ad85c3d1db70"}'

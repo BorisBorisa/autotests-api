@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjMyOjA0Ljg2NDE2NSIsInVzZXJfaWQiOiI2MGVkYTU2Ny1jMzQ0LTRlZWYtOTNkNi0yZjMyZmIwZTFmNGEifQ.GLBF3TL6R2eJnmw-vwX54MZYxuR1aarGAtHLBBMre_E' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Paper her see better push every current.","maxScore":81,"minScore":15,"description":"Wait necessary between travel itself. Back my both letter opportunity. Pull value everything hard value.","estimatedTime":"3 weeks","previewFileId":"337144b4-8e10-49de-8534-91e97a84d5ca","createdByUserId":"60eda567-c344-4eef-93d6-2f32fb0e1f4a"}'

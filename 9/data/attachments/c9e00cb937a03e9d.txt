@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/874c3021-84b6-4871-91f4-49e1a50d9f8a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjMyOjAyLjQxNzYyOSIsInVzZXJfaWQiOiJmNmExNTIwZC1jZDc1LTQwZDgtODVkNS05ZGQzODFiYTIxNzUifQ.OF7gt_vHXsGnmReSRJssQA_v-S0IQGRXa-g0IzAkjHg' \
+  -H 'content-length: 212' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Watch history mind fire trade oil.","maxScore":53,"minScore":2,"description":"Support suggest reflect situation everything blue. Road within hard. Them man door main compare.","estimatedTime":"4 weeks"}'

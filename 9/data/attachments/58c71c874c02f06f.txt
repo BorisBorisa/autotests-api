@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjMyOjAzLjg4NTg0NiIsInVzZXJfaWQiOiI3Yjk1YjMwNS1jZDllLTRhNmQtODI2NS1iMThlOTYzNzRmODYifQ.hzJoQdp5vpCunBVpgFt3qCXnd3o28AaJzow9UMEl5HM' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Account nation fight base population himself.","courseId":"15c9cf3f-c319-47f4-a046-61c0a478ca27","maxScore":56,"minScore":17,"orderIndex":57,"description":"Wear site save theory media. Education make after deep trip scene. Career allow few tend season speech cover.","estimatedTime":"10 weeks"}'

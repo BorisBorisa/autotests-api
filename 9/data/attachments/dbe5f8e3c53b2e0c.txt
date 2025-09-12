@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjMyOjAyLjY5MDQ2NCIsInVzZXJfaWQiOiIwZTJlMDZhYS0xMDIwLTRmOWQtODc1MC0yNTQxYzJlNmY4ODUifQ.4pOS5BAxljiMcOe3JEfACCGlLzkujh0NFLdvxpVKC5o' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Building among involve.","maxScore":98,"minScore":10,"description":"Do condition spring discover. Continue study view act develop.\nDemocratic return yet range weight management between. Wife must start them responsibility wait experience.","estimatedTime":"9 weeks","previewFileId":"fd3f2b98-2b3e-4d7f-b229-d052b942ea89","createdByUserId":"0e2e06aa-1020-4f9d-8750-2541c2e6f885"}'

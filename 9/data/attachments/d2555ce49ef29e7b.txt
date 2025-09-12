@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTEyVDE2OjMyOjAyLjQxNzYyOSIsInVzZXJfaWQiOiJmNmExNTIwZC1jZDc1LTQwZDgtODVkNS05ZGQzODFiYTIxNzUifQ.OF7gt_vHXsGnmReSRJssQA_v-S0IQGRXa-g0IzAkjHg' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ready gun well result sing.","maxScore":50,"minScore":24,"description":"Stuff admit until offer store garden. Actually bank back we wall. Find choose after seven though everything.","estimatedTime":"6 weeks","previewFileId":"e97b9c2c-c56b-4ab9-b238-0c061a7dc015","createdByUserId":"f6a1520d-cd75-40d8-85d5-9dd381ba2175"}'
