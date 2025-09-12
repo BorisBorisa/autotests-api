@@ -8,3 +8,6 @@ __pycache__
 #allure
 allure-results
 allure-report
+
+#swagger-coverage-tool
+coverage-results
